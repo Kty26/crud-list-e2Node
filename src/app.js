@@ -21,11 +21,7 @@ app.use(express.json());
 app.use(cors());
 
 //----------CRUD --------
-//  create 
-//Users.create({
-    //   email: 'kathy@example.com',
-    //   password: '1234'
-    //});.
+
 
     app.post('/todos', async(req, res) => {//manejo de excepciones
       try{
